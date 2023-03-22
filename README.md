@@ -67,9 +67,9 @@ Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with 
 </p>
 <img src="https://i.imgur.com/Z0H2q7C.png"
 <br />
-
+- Restart and then log back into DC-1 as user: mydomain.com\labuser
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aMrE5aG.png"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
