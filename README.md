@@ -39,7 +39,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 3 Set Domain Controller’s NIC Private IP address to be static
 <p>
 <img src="https://i.imgur.com/OpSwC3y.png"/>  
-<br />
+</p>
+<p>
+  
+- Step 4 Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with Network Watcher)
+  <p>
+<img src="https://i.imgur.com/olFgxCi.png"/>  
+</p>
+<p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
