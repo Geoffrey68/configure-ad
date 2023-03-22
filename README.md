@@ -80,6 +80,7 @@ Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with 
 - Step 4.) Create an Admin and Normal User Account in AD
    
    <p>
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
-</p>
+In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”, and one called "_ADMINS"
+<p>
+<img src="https://i.imgur.com/FgVEuzm.png"
 <br />
