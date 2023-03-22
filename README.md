@@ -34,6 +34,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <img src="https://i.imgur.com/aj8rO2H.png"/>
 </p>
+<p>
+  
+- Step 3 Set Domain Controller’s NIC Private IP address to be static
+<p>
+<img src="https://i.imgur.com/OpSwC3y.png"/>  
 <br />
 
 <p>
