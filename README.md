@@ -89,3 +89,11 @@ In Active Directory Users and Computers (ADUC), create an Organizational Unit (O
 Create a new employee named “Jane Doe” with the username of “jane_admin”, Add jane_admin to the “Domain Admins” Security Group
       <p>
 <img src="https://i.imgur.com/UbZ47um.png"/>
+<p>
+   
+   Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+   
+   <p>
+      
+- Step 5.)Join Client-1 to your domain
+      <p>
