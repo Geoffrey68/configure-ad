@@ -49,6 +49,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 - Step 5 Ensure Connectivity between the client and Domain Controller
 <p>
+[Video Demonstration of Client-1 to DC-1 connectivity](https://clipchamp.com/watch/tKOiU9sWfKa)
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
