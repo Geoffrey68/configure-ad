@@ -22,40 +22,50 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1 Create a virtual machine running Windows Server 2022 called DC-1 (domain controller), at the same time create the resource group AD-Lab
+- Step 1.) Setup Resources in Azure 
+<p>
+   Create a virtual machine running Windows Server 2022 called DC-1 (domain controller), at the same time create the resource group AD-Lab
 
 <p>
 <img src="https://i.imgur.com/6rqEypr.png"/>
 </p>
 <p>
   
-- Step 2 Create a second virtual machine running Windows 10 called Client-1
+Create a second virtual machine running Windows 10 called Client-1
   
 <p>
 <img src="https://i.imgur.com/aj8rO2H.png"/>
 </p>
 <p>
   
-- Step 3 Set Domain Controller’s NIC Private IP address to be static
+Set Domain Controller’s NIC Private IP address to be static
 <p>
 <img src="https://i.imgur.com/OpSwC3y.png"/>  
 </p>
 <p>
   
-- Step 4 Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with Network Watcher)
+Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with Network Watcher)
   <p>
 <img src="https://i.imgur.com/olFgxCi.png"/>  
 </p>
 <p>
-- Step 5 Ensure Connectivity between the client and Domain Controller
+- Step 2.) Ensure Connectivity between the client and Domain Controller
 <p>
 [Video Demonstration of Client-1 to DC-1 connectivity](https://clipchamp.com/watch/tKOiU9sWfKa)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Step 3.) Install Active Directory
+  <p>
+   Login to DC-1 and install Active Directory Domain Services
+    <p>
+      Open Server Manager, click on Add Roles and Features, select and install ADDS
+      <p>
+        <img src="https://i.imgur.com/aSuZnGN.png"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Promote as a DC: Setup a new forest as mydomain.com
+
 </p>
+<img src="https://i.imgur.com/Z0H2q7C.png"
 <br />
 
 <p>
