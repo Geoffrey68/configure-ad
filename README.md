@@ -88,4 +88,4 @@ In Active Directory Users and Computers (ADUC), create an Organizational Unit (O
       
 Create a new employee named “Jane Doe” with the username of “jane_admin”, Add jane_admin to the “Domain Admins” Security Group
       <p>
-<img src="https://i.imgur.com/UbZ47um.png"
+<img src="https://i.imgur.com/UbZ47um.png"/>
