@@ -95,5 +95,8 @@ Create a new employee named “Jane Doe” with the username of “jane_admin”
    
    <p>
       
-- Step 5.)Join Client-1 to your domain
+- Step 5.) Join Client-1 to your domain
       <p>
+         
+  From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+         <p>
