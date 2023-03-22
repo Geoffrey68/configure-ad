@@ -49,12 +49,16 @@ Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with 
 <img src="https://i.imgur.com/olFgxCi.png"/>  
 </p>
 <p>
+   
 - Step 2.) Ensure Connectivity between the client and Domain Controller
+
 <p>
 [Video Demonstration of Client-1 to DC-1 connectivity](https://clipchamp.com/watch/tKOiU9sWfKa)
 <p>
+   
 - Step 3.) Install Active Directory
-  <p>
+  
+<p>
    Login to DC-1 and install Active Directory Domain Services
     <p>
       Open Server Manager, click on Add Roles and Features, select and install ADDS
@@ -72,6 +76,10 @@ Ensure that both VMs are in the same Vnet DC-1 (you can check the topology with 
 <img src="https://i.imgur.com/bi7ZVHl.png"/>
 </p>
 <p>
+   
+- Step 4.) Create an Admin and Normal User Account in AD
+   
+   <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
