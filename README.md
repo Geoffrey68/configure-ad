@@ -100,3 +100,5 @@ Create a new employee named “Jane Doe” with the username of “jane_admin”
          
   From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
          <p>
+<img src="https://i.imgur.com/c24Inlf.png">
+            
