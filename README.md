@@ -119,3 +119,15 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
                         <img src="https://i.imgur.com/1PDPQBY.png"/>
                         <p>
                            
+- Step 6.) Setup Remote Desktop for non-administrative users on Client-1
+                           <p>
+Log into Client-1 as mydomain.com\jane_admin and open system properties
+                              <p>
+Click “Remote Desktop”
+                                 <p>
+Allow “domain users” access to remote desktop
+                                    <p>
+                                       <img src="https://i.imgur.com/28gA4td.png"/>
+You can now log into Client-1 as a normal, non-administrative user now
+                                       <p>
+
