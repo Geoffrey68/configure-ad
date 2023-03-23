@@ -114,3 +114,8 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
                <p>
 <img src="https://i.imgur.com/NNfTRVD.png"/>
                   <p>
+                     Create a new OU named “_CLIENTS” and drag Client-1 into there
+                     <p>
+                        <img src="https://i.imgur.com/1PDPQBY.png"/>
+                        <p>
+                           
