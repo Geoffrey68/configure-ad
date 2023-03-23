@@ -107,7 +107,7 @@ From the Azure Portal, restart Client-1
                <p>
 Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
                   <p>
-                  <img src="https://i.imgur.com/EaLdqdZ.png"
+                  <img src="https://i.imgur.com/EaLdqdZ.png">
                   <p>
                   
 Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
