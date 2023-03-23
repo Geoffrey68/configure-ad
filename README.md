@@ -128,6 +128,27 @@ Click “Remote Desktop”
 Allow “domain users” access to remote desktop
                                     <p>
                                        <img src="https://i.imgur.com/28gA4td.png"/>
+                                       <p>
 You can now log into Client-1 as a normal, non-administrative user now
                                        <p>
+- Step 7.) Create a bunch of additional users and attempt to log into client-1 with one of the users
+                                          <p>
+Login to DC-1 as jane_admin
+                                             <p>
+Open PowerShell_ise as an administrator
+                                                 <p>
+Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+                                                     <p>
+Run the script and observe the accounts being created
+                                                         <p>
+                                    <img src="https://i.imgur.com/cp2CA29.png"/>
+                                                            <p>
+When finished, open ADUC and observe the accounts in the appropriate OU
+                                                             <p>
+                                     <img src="https://i.imgur.com/xDHpDci.png"/>
+                                                                <p>
+Log into Client-1 with one of the accounts 
+                                                                   <p>
+                                            <img src="https://i.imgur.com/GoyDMIU.png"/>
+                                                                      <p>
 
